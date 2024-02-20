@@ -42,7 +42,6 @@
 .user {
   color: var(--color);
   text-align: center;
-
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
@@ -126,7 +125,7 @@
   line-height: 20px; /* 137.5% */
 }
 .name,
-.name,
+.minutes,
 .dueDate,
 .priority {
   color: var(--color);

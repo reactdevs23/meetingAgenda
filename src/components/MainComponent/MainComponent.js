@@ -108,14 +108,8 @@ const MainComponent = ({
                           className={classes.priority}
                           style={{
                             boxShadow: priorityBoxShadow,
-                            "--color":
-                              task.priority.toLowerCase() === "high"
-                                ? highPriorityColor
-                                : task.priority.toLowerCase() === "medium"
-                                ? mediumPriorityColor
-                                : task.priority.toLowerCase() === "low"
-                                ? lowPriorityColor
-                                : "",
+                            "--color": task.priorityColor,
+
                             "--bg":
                               task.priority.toLowerCase() === "high"
                                 ? highPriorityBg

@@ -52,6 +52,7 @@ function App() {
             name: "What should my main focus be while you’re OOO?",
             nameColor: "#000",
             priority: "High",
+            priorityColor: "#F04438",
             minutes: "5",
             minutesColor: "#000",
             dueDate: "",
@@ -60,6 +61,7 @@ function App() {
           {
             name: "Feedback on last Friday’s team presentation",
             priority: "Medium",
+            priorityColor: "#F79009",
             minutes: "10",
             minutesColor: "#000",
             dueDate: "",
@@ -68,6 +70,7 @@ function App() {
           {
             name: "Coaching: How to better prioritize my time?",
             priority: "High",
+            priorityColor: "#F04438",
             minutes: "15",
             minutesColor: "#000",
             dueDate: "",
@@ -87,6 +90,7 @@ function App() {
             name: "Log OOO time in our calendar",
             nameColor: "#000",
             priority: "Low",
+            priorityColor: "#EAAA08",
             minutes: "",
             minutesColor: "#000",
             dueDate: "Mar 25",
@@ -95,6 +99,7 @@ function App() {
           {
             name: "Finalize monthly staffing plan and share with team",
             priority: "Medium",
+            priorityColor: "#F79009",
             minutes: "",
             minutesColor: "#000",
             dueDate: "Mar 10",
@@ -103,6 +108,7 @@ function App() {
           {
             name: "Review Q2 launch video outlines",
             priority: "Medium",
+            priorityColor: "#F79009",
             minutes: "",
             minutesColor: "#000",
             dueDate: "Mar 15",
@@ -122,6 +128,7 @@ function App() {
             name: "Live brainstorming; setting goals for Q2",
             nameColor: "#000",
             priority: "",
+            priorityColor: "#000",
             minutes: "",
             minutesColor: "#000",
             dueDate: "",
@@ -130,7 +137,8 @@ function App() {
           {
             name: "Upcoming PTO",
             priority: "",
-            minutes: "",
+            priorityColor: "#000",
+            minutes: "Lorem",
             minutesColor: "#000",
             dueDate: "",
             dueDateColor: "#000",
