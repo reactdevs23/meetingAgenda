@@ -62,6 +62,7 @@ function App() {
           },
           {
             name: "Feedback on last Friday’s team presentation",
+            nameColor: "#000",
             priority: "Medium",
             priorityColor: "#F79009",
             minutes: "10",
@@ -71,6 +72,7 @@ function App() {
           },
           {
             name: "Coaching: How to better prioritize my time?",
+            nameColor: "#000",
             priority: "High",
             priorityColor: "#F04438",
             minutes: "15",
@@ -100,6 +102,7 @@ function App() {
           },
           {
             name: "Finalize monthly staffing plan and share with team",
+            nameColor: "#000",
             priority: "Medium",
             priorityColor: "#F79009",
             minutes: "",
@@ -109,6 +112,7 @@ function App() {
           },
           {
             name: "Review Q2 launch video outlines",
+            nameColor: "#000",
             priority: "Medium",
             priorityColor: "#F79009",
             minutes: "",
@@ -138,6 +142,7 @@ function App() {
           },
           {
             name: "Upcoming PTO",
+            nameColor: "#000",
             priority: "",
             priorityColor: "#000",
             minutes: "Lorem",
