@@ -124,6 +124,11 @@
   font-weight: 600;
   line-height: 20px; /* 137.5% */
 }
+.nameContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 .name,
 .minutes,
 .dueDate,

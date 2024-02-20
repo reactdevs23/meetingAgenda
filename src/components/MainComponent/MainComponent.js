@@ -17,6 +17,7 @@ const MainComponent = ({
   lowPriorityBg,
   lowPriorityColor,
   data,
+  icon,
 }) => {
   return (
     <div
@@ -96,12 +97,15 @@ const MainComponent = ({
                     key={id}
                     style={{ "--borderColor": el.taskBorderColor }}
                   >
-                    <p
-                      className={classes.name}
-                      style={{ "--color": task.nameColor }}
-                    >
-                      {task.name}
-                    </p>
+                    <div className={classes.nameContainer}>
+                      <div className={classes.icon}>{icon}</div>
+                      <p
+                        className={classes.name}
+                        style={{ "--color": task.nameColor }}
+                      >
+                        {task.name}
+                      </p>
+                    </div>
                     <div className={classes.priorityWrapper}>
                       {task.priority && (
                         <p

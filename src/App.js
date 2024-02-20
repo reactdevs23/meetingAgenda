@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import MainComponent from "./components/MainComponent/MainComponent";
+import CheckMark from "./images/CheckMark";
 
 function App() {
   const [allData, setAllData] = useState({
@@ -39,6 +40,7 @@ function App() {
     mediumPriorityColor: "#F79009",
     lowPriorityBg: "rgb(253, 226, 114,.3)",
     lowPriorityColor: "#EAAA08",
+    icon: <CheckMark color="#fff" bg="#B3B8DB" />,
     data: [
       {
         title: "Discussion topics",
